@@ -17,6 +17,7 @@ module.exports = {
     }),
     new WebpackPwaManifest({
       name: 'Contact Cards Application',
+      fingerprints: false,
       short_name: 'Contact Cards',
       description: 'Keep track of important contacts!',
       background_color: '#7eb4e2',
